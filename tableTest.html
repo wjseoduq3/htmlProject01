@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Table 만들기 연습</title>
+</head>
+<body>
+    <h3>오늘의 날씨</h3>
+    <table border="1" cellspacing="0" cellpadding="0">
+        <tr>
+            <td>지역</td>
+            <td>현재기온</td>
+            <td>불쾌지수</td>
+            <td>습도(%)</td>
+            <td>풍속(m/s)</td>
+        </tr>
+        <tr>
+            <td>서울</td>
+            <td>23</td>
+            <td>60</td>
+            <td>80</td>
+            <td>4.7</td>
+        </tr>
+        <tr>
+            <td>경기도</td>
+            <td>20</td>
+            <td>60</td>
+            <td>80</td>
+            <td>5.0</td>
+        </tr>
+        <tr>
+            <td>제주도</td>
+            <td>21</td>
+            <td>65</td>
+            <td>85</td>
+            <td>3.6</td>
+        </tr>
+    </table>
+    <table border="1" cellspacing="0" cellpadding="0">
+         <tr bgcolor="green">
+            <th>지역</th>
+            <th>현재기온</th>
+            <th colspan="2">불쾌지수/습도(%)</th>
+            <th>풍속(m/s)</th>
+        </tr>
+        <tr>
+            <td rowspan="2" bgcolor="fink">서울/경기</td>
+            <td>23</td>
+            <td>60</td>
+            <td>80</td>
+            <td>4.7</td>
+        </tr>
+        <tr>
+            <td>20</td>
+            <td>60</td>
+            <td>80</td>
+            <td>5.0</td>
+        </tr>
+        <tr>
+            <td>제주도</td>
+            <td>21</td>
+            <td>65</td>
+            <td>85</td>
+            <td>3.6</td>
+        </tr>
+    </table>
+    <center>
+        <h3><!-- style="text-indent: 300px"-->우도 입장 총괄요금표</h3>
+        <table width="800" height="400" border="2" cellspacing="0" cellpadding="0">
+             <tr>
+                <th bgcolor="green" rowspan="2">구분</th>
+                <th bgcolor="yellow" colspan="3">우도입장 총괄요금표</th>
+            </tr>
+            <tr>
+                <th>선박요금</th>
+                <th>도립공원입장료</th>
+                <th>터미널이용료</th>
+            </tr>
+            <tr align="center">
+                <th bgcolor="green">성인</th>
+                <td>2,000원</td>
+                <td>1,000원</td>
+                <td>500원</td>
+            </tr>
+            <tr>
+                <th bgcolor="green">중학생이상</th>
+                <th>2,000원</th>
+                <th>800원</th>
+                <th>300원</th>
+            </tr>
+            <tr>
+                <th bgcolor="green">초등학생</th>
+                <th>700원</th>
+                <th>500원</th>
+                <th>300원</th>
+            </tr>
+            <tr>
+                <th colspan="4">"이륜차(오토바이,자전거) 및 화물차량은 별도 문의"</th>
+            </tr>
+        </table>
+    </center>
+</body>
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>사용자 정보입력</title>
+</head>
+<body>
+    <h3>사용자 정보입력</h3>
+    <p><i>사용자 정보 입력이 필요합니다.</i></p>
+    <table width="800" height="400" border="1" cellspacing="0" cellpadding="0">
+        <tr>
+            <th bgcolor="pink">사용자ID</th>
+            <td colspan="3"><input type="text" name="userid">&nbsp&nbsp<input type="button" value="ID중복확인" name="idCheck"></td>
+            <!--<td></td>-->
+            <!--<td></td>-->
+        </tr>
+        <tr>
+            <<th bgcolor="pink">비밀번호</th>
+            <td><input type="password" name="password1"></td>
+            <td bgcolor="pink">비밀번호 확인</td>
+            <td><input type="password" name="password2"></td>
+        </tr>
+        <tr>
+            <th bgcolor="pink">사용자이름</th>
+            <td colspan="3" align="left"><input type="text" name="username"></td>
+            <!--<td></td>
+            <td></td>-->
+        </tr>
+        <tr>
+            <th bgcolor="pink">주민등록번호</th>
+            <td colspan="3"><input type="text" name="idNumFront">&nbsp - &nbsp<input type="text" name="idNumBack"></td>
+            <!--<td></td>-->
+            <!--<td></td>-->
+        </tr>
+        <tr>
+            <th bgcolor="pink">생년월일</th>
+            <td><input type="text" name="birthDate"></td>
+            <th bgcolor="pink">성별</th>
+            <td><input type="checkbox" name="man" checked>남자<input type="checkbox" name="woman">여자</td>
+        </tr>
+        <tr>
+            <th bgcolor="pink">우편번호</th>
+            <td colspan="3"><input type="text" name="zipCodeFront">&nbsp - &nbsp<input type="text" name="zipCodeBack">&nbsp<input type="button" value="우편번호검색" name="zipCodeCheck"></td>
+            <!--<td></td>-->
+            <!--<td></td>-->
+        </tr>
+        <tr>
+            <th bgcolor="pink">주 소</th>
+            <td colspan="3"><input type="text" name="address"></td>
+            <!--<td></td>-->
+            <!--<td></td>-->
+        </tr>
+        <tr>
+            <th bgcolor="pink">나머지 주소</th>
+            <td colspan="3"><input type="text" name="address"></td>
+            <!--<td></td>-->
+            <!--<td></td>-->
+        </tr>
+        <tr>
+            <th bgcolor="pink">E-Mail</th>
+            <td colspan="3"><input type="text" name="email">@
+                 <select>
+                    <option>선택하세요</option>
+                    <option>naver.com</option>
+                    <option>nate.com</option>
+                    <option>gmail.com</option>
+                    <option>korea.com</option>
+                </select>
+            </td>
+            <!--<td></td>-->
+            <!--<td></td>-->
+        </tr>
+        <tr>
+            <th bgcolor="pink">직업</th>
+            <td colspan="3">
+                 <select>
+                    <option>컴퓨터/정보통신</option>
+                    <option>도소매/유통</option>
+                    <option>기계/금속</option>
+                    <option>화학/화공</option>
+                    <option>기타</option>
+                </select>
+            </td>
+            <!--<td></td>-->
+            <!--<td></td>-->
+        </tr>
+        <tr align="center">
+            <td colspan="4"><input type="submit" value="등 록" name="register">&nbsp<input type="reset" value="취 소" name="cancel">
+            </td>
+            <!--<td></td>-->
+            <!--<td></td>-->
+            <!--<td></td>-->
+        </tr>
+    </table>
+</body>
+</html>
